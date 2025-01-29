@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen text-white p-4">
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-80 text-center">
         <div className="mb-4 p-3 bg-gray-700 text-2xl rounded">{input || "0"}</div>
         <div className="mb-4 p-3 bg-gray-600 text-xl rounded">Resultado: {resultado}</div>
